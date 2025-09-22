@@ -1,0 +1,68 @@
+## Visual Studio / Rider / VS Code
+.vs/
+.idea/
+*.DotSettings.user
+
+## Compilados
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]uild/
+publish/
+
+## Arquivos temporários
+*.tmp
+*.temp
+*.log
+*.suo
+*.user
+*.sln.docstates
+
+## Test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+## NuGet
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Não ignore se precisar versionar repositorios.config
+!packages/repositories.config
+
+## User Secrets (mantidos fora do repo)
+secrets.json
+
+## AppSettings (apenas os locais/de dev)
+appsettings.Development.json
+
+## Publish Profiles
+*.Publish.xml
+*.pubxml
+*.pubxml.user
+*.publishsettings
+*.azurePubxml
+
+## Rider / ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+## Cache / misc
+*.dbmdl
+*.bak
+*.cache
+*.svclog
+
+## SO: Windows / Mac
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
